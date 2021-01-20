@@ -37,3 +37,54 @@ header nav a:hover{
     color: #fff;
 }
 
+
+.filme_principal{
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/Riverdale.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.descricao{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: rgba(0,0,0,.50);
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition:.3s ease-in;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.filme_principal .container{
+    width: 60%;
+}
+
